@@ -1,0 +1,19 @@
+{
+  "name": "programacionweb",
+  "version": "1.0.0",
+  "description": "proyecto html",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumtrack98/ProgramacionWeb.git"
+  },
+  "author": "Bryan Ulises Mendoza Olvera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sumtrack98/ProgramacionWeb/issues"
+  },
+  "homepage": "https://github.com/Sumtrack98/ProgramacionWeb#readme"
+}
