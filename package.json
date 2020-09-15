@@ -4,6 +4,7 @@
   "description": "proyecto html",
   "main": "index.html",
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Sumtrack98/ProgramacionWeb/issues"
   },
-  "homepage": "https://github.com/Sumtrack98/ProgramacionWeb#readme"
+  "homepage": "https://github.com/Sumtrack98/ProgramacionWeb#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
