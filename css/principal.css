@@ -1,0 +1,18 @@
+.btn-ver {
+  width: 100%;
+}
+.jumbotron {
+  background-color: greenyellow;
+}
+footer {
+  padding: 10px 20px 0px 20px;
+  background-color: greenyellow;
+  color: #2c2929;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.card-design {
+  flex: 1 250px;
+  padding: 2px 5px 2px 5px;
+  margin-top: 15px;
+}
