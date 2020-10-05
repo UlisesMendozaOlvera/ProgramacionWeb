@@ -7,11 +7,13 @@
     />
 
     <title>GAMING PC</title>
+    <link rel="stylesheet" href="/node_modules/popper.js/dist/popper.min.js" />
 
     <link
       rel="stylesheet"
       href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+
     <link rel="stylesheet" href="/css/principal.css" />
     <link rel="stylesheet" href="/css/font-awesome.min.css" />
   </head>
@@ -95,11 +97,25 @@
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="validationCustom01">Nombre</label>
-            <input type="text" class="form-control" id="validationCustom01" />
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom01"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Nombres completos"
+            />
           </div>
           <div class="form-group col-md-6">
             <label for="validationCustom02">Apellido</label>
-            <input type="text" class="form-control" id="validationCustom02" />
+            <input
+              type="text"
+              class="form-control"
+              id="validationCustom02"
+              data-toggle="tooltip"
+              data-placement="bottom"
+              title="Apellidos completos"
+            />
           </div>
         </div>
         <div class="form-group">
@@ -146,7 +162,20 @@
             </label>
           </div>
         </div>
-        <button type="submit" class="btn btn-dark">Enviar</button>
+
+        <button
+          type="submit"
+          class="btn btn-dark Ejemplo-Popover"
+          tabindex="0"
+          role="button"
+          data-placement="top"
+          data-toggle="popover"
+          data-trigger="focus"
+          title="Advertencia"
+          data-content="Asegúrese de que los datos esten correctos, antes de enviar."
+        >
+          Enviar
+        </button>
       </form>
     </div>
 
@@ -190,8 +219,13 @@
         </div>
       </div>
     </footer>
+
     <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/js/funciones.js"></script>
   </body>
 </html>
