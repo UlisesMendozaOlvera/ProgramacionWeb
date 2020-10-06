@@ -3,6 +3,34 @@
 }
 .jumbotron {
   background-color: greenyellow;
+  height: 40vh;
+  background-size: cover;
+  background-position: top center;
+  color: rgb(56, 56, 56);
+  text-align: center;
+  padding-top: 90px;
+}
+.textoM {
+  text-shadow: 3px 3px rgb(114, 113, 113);
+}
+.jumbotron-seccion {
+  background-image: url(../img/Untitled\ design.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: top center;
+  margin-block-end: 20px;
+  color: greenyellow;
+  padding-top: 130px;
+
+  text-align: center;
+}
+.jumbotron-contacto {
+  background-image: url(../img/Untitled\ design3.jpg);
+  height: 50vh;
+  background-position: right center;
+  margin-block-end: 20px;
+  color: greenyellow;
+  padding-top: 130px;
 }
 
 footer {
