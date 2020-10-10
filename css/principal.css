@@ -1,6 +1,15 @@
 .btn-ver {
   width: 100%;
 }
+.navbar-M {
+  background-color: greenyellow;
+  text-decoration-color: white;
+}
+
+.banner {
+  /* padding-top: 56px;*/
+  margin-block-end: 20px;
+}
 .jumbotron {
   background-color: greenyellow;
   height: 40vh;
@@ -10,8 +19,12 @@
   text-align: center;
   padding-top: 90px;
 }
+.textP {
+  color: greenyellow;
+}
 .textoM {
   text-shadow: 3px 3px rgb(114, 113, 113);
+  color: greenyellow;
 }
 .jumbotron-seccion {
   background-image: url(../img/Untitled\ design.jpg);
@@ -43,8 +56,51 @@ footer {
 footer a {
   color: black;
 }
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
 .card-design {
   flex: 1 250px;
   padding: 2px 5px 2px 5px;
   margin-top: 15px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.menu1 li a {
+  background-color: greenyellow;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+
+  display: block;
+}
+.menu1 li a:hover {
+  background-color: rgba(22, 21, 21, 0.726);
+  color: greenyellow;
+}
+.menu1 {
+  float: left;
+  width: 240px;
+  height: auto;
+}
+
+.menu1 li ul {
+  display: none;
+  position: relative;
+  min-width: auto;
+}
+.menu1 li:hover > ul {
+  display: block;
+}
+
+.menu1 ul li ul li {
+  position: relative;
+  right: -100px;
+  top: 0px;
 }
