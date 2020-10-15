@@ -1,25 +1,40 @@
+$(function(){ 
+modInicio();
+$('#Vermas').on('show.bs.modal', function (e) {
+  console.log('el modal se está mostrando');
+  $('#Vermas').removeClass('btn-primary');
+  $('#Vermas').addClass('btn-success');
+  $('#Vermas').prop('disabled', true)
+});
 
+$('#Vermas').on('shown.bs.modal', function (e) {
+  console.log('el modal se mostró');
+});
 
-$(function(){
-  $('[data-toggle="tooltip"]').tooltip();
+$('#Vermas').on('hide.bs.modal', function (e) {
+  console.log('el modal se oculta');
+});
 
+$('#Vermas').on('hidden.bs.modal', function (e) {
+  console.log('el modal se ocultó');
+  $('#Vermas').prop('disabled', false)
+});
+});
+
+$(function () {
+  $('[data-toggle2="tooltip"]').tooltip();
+});
+$(function () {
   $('[data-toggle="popover"]').popover({
     placement: "bottom",
     trigger: "hover",
   });
-  
-modInicio();
-
 });
-
 
 function modInicio() {
   $("#contenedor").empty();
- 
-  
   $("#contenedor").load("pages/inicio.html", function () {
   });
- 
 };
 function modCategorias() {
   $("#contenedor").empty();
@@ -41,17 +56,3 @@ function modNosotros() {
   $("#contenedor").load("pages/nosotros.html", function () {
   });
 };
-
-
-/*$(function () {
-
-  $('[data-toggle="popover"]').popover({
-    placement: "bottom",
-    trigger: "hover",
-  });
-});
-
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip();
-});
-*/
