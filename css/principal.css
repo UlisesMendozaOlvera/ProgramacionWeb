@@ -22,10 +22,17 @@
 .textP {
   color: greenyellow;
 }
+@font-face {
+  font-family: "mifuente";
+  src: url(../fuentes/ConcertOne-Regular.ttf);
+}
 .textoM {
   text-shadow: 3px 3px rgb(114, 113, 113);
   color: greenyellow;
+  font-family: mifuente;
+  font-size: 55px;
 }
+
 .jumbotron-seccion {
   background-image: url(../img/Untitled\ design.jpg);
   height: 50vh;
