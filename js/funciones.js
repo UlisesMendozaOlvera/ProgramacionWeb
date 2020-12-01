@@ -35,7 +35,7 @@ $('[data-toggle="popover"]').popover({
 });
 
 function readURL1(input,img) {
-  if (input.files[0].type == 'image/jpeg' || input.files[0].type == 'image/png') {
+  if (input.files[0].type == './image/jpeg' || input.files[0].type == './image/png') {
       $.each(jQuery(input)[0].files, function (i, file) {
           var reader = new FileReader();
           reader.onload = function (e) {
@@ -50,27 +50,27 @@ function readURL1(input,img) {
 
 function modInicio() {
   $("#contenedor").empty();
-  $("#contenedor").load("pages/inicio.html", function () {
+  $("#contenedor").load("./pages/inicio.html", function () {
   });
 };
 function modCategorias() {
   $("#contenedor").empty();
-  $("#contenedor").load("pages/Cat.html", function () {
+  $("#contenedor").load("./pages/Cat.html", function () {
   });
 };
 function modComponentes() {
   $("#contenedor").empty();
-  $("#contenedor").load("pages/comp.html", function () {
+  $("#contenedor").load("./pages/comp.html", function () {
   });
 };
 function modContactanos() {
   $("#contenedor").empty();
-  $("#contenedor").load("pages/cont.html", function () {
+  $("#contenedor").load("./pages/cont.html", function () {
   });
 };
 function modNosotros() {
   $("#contenedor").empty();
-  $("#contenedor").load("pages/nosotros.html", function () {
+  $("#contenedor").load("./pages/nosotros.html", function () {
   });
 };
 
