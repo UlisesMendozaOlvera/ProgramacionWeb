@@ -24,7 +24,7 @@
 }
 @font-face {
   font-family: "mifuente";
-  src: url(../fuentes/ConcertOne-Regular.ttf);
+  src: url(/fuentes/ConcertOne-Regular.ttf);
 }
 .textoM {
   text-shadow: 3px 3px rgb(114, 113, 113);
@@ -34,7 +34,7 @@
 }
 
 .jumbotron-seccion {
-  background-image: url(../img/Untitled\ design.jpg);
+  background-image: url(/img/Untitled\ design.jpg);
   height: 50vh;
   background-size: cover;
   background-position: top center;
@@ -45,7 +45,7 @@
   text-align: center;
 }
 .jumbotron-contacto {
-  background-image: url(../img/Untitled\ design3.jpg);
+  background-image: url(/img/Untitled\ design3.jpg);
   height: 50vh;
   background-position: right center;
   margin-block-end: 20px;
