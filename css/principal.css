@@ -48,7 +48,7 @@
   background-image: url(/img/Untitled\ design3.jpg);
   height: 50vh;
   background-position: right center;
-  margin-block-end: 20px;
+  margin-block-end: 30px;
   color: greenyellow;
   padding-top: 130px;
 }
@@ -58,7 +58,7 @@ footer {
   background-color: greenyellow;
   color: #2c2929;
   margin-bottom: 0px;
-  margin-top: 30px;
+  margin-top: 200px;
 }
 footer a {
   color: black;
