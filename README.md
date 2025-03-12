@@ -63,7 +63,7 @@ ProgramacionWeb/
 └── componentes.html
 ```
 
-## 👤 Autor
+## 👤 Autor 
 
 **Bryan Ulises Mendoza Olvera**
 
