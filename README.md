@@ -7,7 +7,6 @@ Este proyecto es una aplicación web desarrollada por Bryan Ulises Mendoza Olver
 El proyecto consiste en un sitio web con múltiples páginas que incluyen:
 - Página principal (index.html)
 - Sección de categorías
-- Galería de fotos
 - Página de contacto
 - Sección "Acerca de nosotros"
 - Página de componentes
@@ -71,8 +70,9 @@ ProgramacionWeb/
 
 Este proyecto está bajo la Licencia ISC
 
-## 🔗 Enlaces
+## 🔗 Enlaces 
 
 - [Repositorio GitHub](https://github.com/Sumtrack98/ProgramacionWeb)
 - [Reportar un problema](https://github.com/Sumtrack98/ProgramacionWeb/issues)
 
+ 
